@@ -1,0 +1,990 @@
+#logo-img {
+    width: 9%;
+    height: 100%;
+    color: #31473A;
+}
+
+#logo-text {
+    font-family: 'Amaranth', sans-serif !important;
+    font-weight: bold;
+    color: #2e2e2e;
+    text-decoration: none;
+
+}
+
+span {
+    color: #f9004d;
+    /* font-size: 30px; */
+}
+
+h3 {
+    /* margin-top: 0px; */
+    display: inline-block;
+    margin-left: 0px;
+    margin-left: -32px;
+    margin-top: 20px;
+    /* background-color: yellowgreen; */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 272px;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 30px;
+    margin-top: -58px;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    font-family: 'Amaranth', sans-serif !important;
+    font-weight: bold;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f9004d;
+
+}
+
+header {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+}
+
+#first-img {
+    box-shadow: rgba(73, 146, 202, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 166px 10px 103px 10px;
+}
+
+#splite-id {
+    display: flex;
+
+
+}
+
+#section-id {
+    /* background-color: bisque; */
+    height: 400px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+h1 {
+    margin-left: 80px;
+    /* margin-top: 60px; */
+    padding-top: 20px;
+
+}
+
+#heding-part {
+    font-size: 60px;
+    line-height: 0.88em;
+    font-weight: lighter;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: black;
+    display: block;
+}
+
+strong {
+    font-size: 100px;
+    line-height: 0.8em;
+    font-weight: 900;
+    text-align: left;
+    color: black;
+    display: block;
+    font-family: 'Amaranth', sans-serif !important;
+}
+
+.moving-image2 {
+    width: 106px;
+    position: absolute;
+    top: 50%;
+    margin-left: -3px;
+    margin-top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveImage 5s infinite alternate;
+}
+
+.moving-image {
+    width: 106px;
+    position: absolute;
+    top: 50%;
+    margin-left: 413px;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveImage 5s infinite alternate;
+}
+
+@keyframes moveImage {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -70%);
+    }
+}
+
+
+
+.vertical-line {
+    width: 1px;
+    height: 100px;
+    /* Adjust height as needed */
+    background-color: black;
+    /* Adjust color as needed */
+    margin: 20px auto;
+    /* Adjust margin as needed */
+}
+
+#main-heading {
+    display: flex;
+}
+
+#main1 {
+    width: 292px;
+    height: 439px;
+}
+
+#secoundh1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+    width: 201%;
+    margin-left: 1px;
+    font-family: 'Amaranth', sans-serif !important;
+
+}
+
+p {
+    font-size: 16px;
+    width: 200%;
+    font-family: 'Amaranth', sans-serif !important;
+}
+
+#leaf {
+    width: 418px;
+    height: 311px;
+    margin-left: 282px;
+}
+
+#content {
+    margin-left: 100px;
+}
+
+#main2-part {
+    display: flex;
+    flex-direction: column;
+}
+
+#main2-part p {
+    width: 58%;
+    /* margin: 53px 168px; */
+    margin-top: 53px;
+    margin-left: 168px;
+    font-size: 16px;
+}
+
+#main2 {
+    width: 451px;
+    height: 300px;
+    margin-left: 595px;
+    margin-top: -417px;
+}
+
+#leaf-2 {
+    margin-left: -66px;
+    margin-top: -169px;
+}
+
+#about {
+    padding: 0.6em 2.4em;
+    border-radius: 28px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 203px;
+}
+
+#cafes-id {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000;
+    margin-top: -90px;
+    margin-bottom: 83px;
+}
+
+#talk {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000;
+    margin-left: 75px;
+    margin-top: -16px;
+    margin-bottom: -42px;
+    font-family: 'Amaranth', sans-serif !important;
+}
+
+#talk-p {
+    width: 80%;
+    /* margin: 53px 168px; */
+    margin-top: 53px;
+    margin-left: 168px;
+    font-size: 16px;
+}
+
+#talk-btn {
+    padding: 0.6em 2.4em;
+    border-radius: 28px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 203px;
+}
+
+#talk-img {
+    display: flex;
+    margin-left: 560px;
+    margin-top: -426px;
+
+}
+
+#talkimg1 {
+    width: 253px;
+    height: 415px;
+    margin-right: 20px;
+}
+
+#talkimg2 {
+    width: 317px;
+    height: 415px;
+}
+
+.vertical-line2 {
+    width: 1px;
+    height: 460px;
+    /* Adjust height as needed */
+    background-color: black;
+    /* Adjust color as needed */
+    margin: -272px 544px;
+}
+
+.horizontal-line {
+    border: 1px solid black;
+    width: 300%;
+    height: 2px;
+    background-color: black;
+    /* Adjust color as needed */
+    margin: 10px 0;
+    /* Adjust margin as needed */
+}
+
+#couple-img {
+    display: flex;
+
+}
+
+#couple1 {
+    width: 317px;
+    height: 415px;
+    margin-right: 20px;
+}
+
+#couple2 {
+    width: 317px;
+    height: 415px;
+}
+
+#couple-p {
+    width: 80%;
+    /* margin: 53px 168px; */
+    margin-left: 623px;
+    margin-top: -328px;
+    /* margin-left: 623px; */
+    font-size: 16px;
+    padding-top: 82px;
+}
+
+#couple-btn {
+    padding: 0.6em 2.4em;
+    border-radius: 28px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 203px;
+}
+
+.vertical-line3 {
+    width: 1px;
+    height: 439px;
+    background-color: black;
+    margin: -425px 598px;
+}
+
+.horizontal-line2 {
+    border: 1px solid black;
+    width: 99%;
+    height: 2px;
+    background-color: black;
+    /* Adjust color as needed */
+    margin: 288px 0;
+    /* Adjust margin as needed */
+}
+
+#talk-p2 {
+    width: 80%;
+    /* margin: 53px 168px; */
+    margin-top: 53px;
+    margin-left: 168px;
+    font-size: 16px;
+}
+
+#talk-btn2 {
+    padding: 0.6em 2.4em;
+    border-radius: 28px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 203px;
+}
+
+#talk-img2 {
+    display: flex;
+    margin-left: 560px;
+    margin-top: -300px;
+
+}
+
+#talkimg12 {
+    width: 253px;
+    height: 415px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#talkimg22 {
+    width: 317px;
+    height: 415px;
+    margin-top: 30px;
+}
+
+.vertical-line22 {
+    width: 1px;
+    height: 509px;
+    background-color: black;
+    margin: -498px 544px;
+}
+
+#hr-id {
+    border: 1px solid black;
+    width: 312%;
+    height: 2px;
+    background-color: black;
+    margin: 53px 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .navbar-nav {
+        display: flex;
+        margin-left: 2px;
+        flex-direction: row;
+        margin-left: -40px;
+
+    }
+    .navbar-toggler{
+        margin-top: -88px;
+        margin-left: -55px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-top: 10px;
+        margin-right: 10px;
+
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 10px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #f9004d;
+    }
+
+    #logo-img {
+        width: 80px;
+        color: #31473A;
+        height: 63px;
+        margin-left: 128px;
+    }
+
+    #logo-text {
+        margin-top: 26px;
+        margin-left: -21px;
+    }
+
+    header {
+        height: 77px;
+        width: 110%;
+    }
+
+    #splite-id {
+        display: inline-block;
+    }
+
+    #first-img {
+        border-radius: 6px;
+        margin-top: 23px;
+        width: 360px;
+        /* height: 20px; */
+        margin-left: 102px;
+    }
+
+    h1 {
+        margin-left: 185px;
+    }
+
+    #heding-part {
+        font-size: 50px
+    }
+
+    strong {
+        font-size: 180%;
+    }
+
+    .moving-image2 {
+        margin-left: -183px;
+        width: 93px;
+        margin-top: 239px;
+    }
+
+    .moving-image {
+        margin-left: 178px;
+        width: 90px;
+        margin-top: 307px;
+    }
+
+    #main1 {
+
+        display: inline-block;
+        margin-top: 220px;
+        margin-left: 152px;
+        height: 294px;
+    }
+
+    #content {
+        margin-left: -288px;
+        margin-top: 444px;
+    }
+
+    #secoundh1 {
+        font-size: 17px;
+        font-weight: bolder;
+        margin-top: 70px;
+        margin-left: 65px;
+    }
+
+    #content p {
+        font-size: 14px;
+        margin-left: 64px;
+    }
+
+    #leaf {
+        margin-top: 695px;
+        width: 50%;
+        height: 79px;
+        margin-left: 99px;
+    }
+
+    #main2-part p {
+        font-size: 14px;
+        margin-left: 125px;
+        width: 307px;
+    }
+
+    #about {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 210px;
+        padding: 2px;
+    }
+
+    #main2 {
+        display: inline-block;
+        margin-top: 33px;
+        margin-left: 134px;
+        height: 261px;
+        width: 255px;
+    }
+
+    .vertical-line {
+        height: 52px;
+        width: 2px;
+    }
+
+    #leaf-2 {
+        margin-top: -12px;
+        width: 21%;
+        height: 87px;
+        margin-left: 25px;
+    }
+
+    #cafes-id {
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
+    #talk {
+        font-size: 22px;
+        width: 191px;
+        margin-left: 181px;
+        margin-top: -68px;
+    }
+
+    #talk-p {
+        font-size: 14px;
+        margin-left: 125px;
+        width: 307px;
+    }
+
+    #talk-btn {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 210px;
+        padding: 2px;
+    }
+
+    .vertical-line2 {
+        display: block;
+    }
+
+    #talkimg1 {
+        margin-left: -414px;
+        height: 352px;
+        width: 276px;
+        margin-top: 452px;
+    }
+
+    #talkimg2 {
+        margin-left: -296px;
+        height: 362px;
+        width: 390px;
+        margin-top: 825px;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    #couple-img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #couple1 {
+        margin-left: 147px;
+        height: 362px;
+        width: 275px;
+        margin-top: 20px;
+    }
+
+    #couple2 {
+        margin-left: 147px;
+        height: 362px;
+        width: 275px;
+    }
+
+    #couple-p {
+        font-size: 14px;
+        margin-left: 140px;
+        width: 307px;
+        padding-top: 469px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .vertical-line2 {
+        display: none;
+    }
+
+    .horizontal-line2 {
+        display: none;
+    }
+
+    #talk-p2 {
+        font-size: 14px;
+        margin-left: 140px;
+        width: 307px;
+    }
+
+    #talk-btn2 {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 210px;
+        padding: 2px;
+    }
+
+    .vertical-line22 {
+        display: none;
+    }
+
+    #talkimg12 {
+        margin-left: -413px;
+        height: 362px;
+        width: 275px;
+        margin-top: 326px;
+    }
+
+    #talkimg22 {
+        margin-left: -413px;
+        height: 362px;
+        width: 275px;
+        margin-top: 20px;
+    }
+
+    #talk-img2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #hr-id {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+
+
+    .navbar-nav{
+        display: flex;
+        margin-left: 2px;
+
+    }
+
+    .navbar-nav .nav-item {
+        margin-top: 10px;
+        margin-right: 10px;
+
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #f9004d;
+    }
+
+    #logo-img {
+        width: 80px;
+        color: #31473A;
+        height: 63px;
+        margin-left: 128px;
+    }
+
+    #logo-text {
+        margin-top: 26px;
+        margin-left: -21px;
+    }
+
+    header {
+        height: 77px;
+        width: 110%;
+    }
+
+    #splite-id {
+        display: inline-block;
+    }
+
+    #first-img {
+        border-radius: 9px;
+        margin-top: 40px;
+        width: 200%;
+    }
+
+    h1 {
+        margin-left: 185px;
+    }
+
+    #heding-part {
+        font-size: 52px;
+        margin-left: 68px;
+    }
+
+    strong {
+        font-size: 180%;
+        margin-left: 68px;
+    }
+
+    .moving-image2 {
+        margin-left: -257px;
+        width: 93px;
+        margin-top: 370px;
+    }
+
+    .moving-image {
+        margin-left: 178px;
+        width: 90px;
+        margin-top: 307px;
+    }
+
+    #main-heading {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main1 {
+        display: inline-block;
+        margin-top: 369px;
+        margin-left: 38px;
+        height: 294px;
+    }
+
+    #content {
+        margin-left: -288px;
+        margin-top: 444px;
+    }
+
+    #secoundh1 {
+        font-size: 17px;
+        font-weight: bolder;
+        margin-top: -98px;
+        margin-bottom: 167px;
+        margin-left: 351px;
+    }
+
+    #content p {
+        font-size: 14px;
+        margin-left: 349px;
+        margin-top: -161px;
+        width: 74%;
+    }
+
+    #leaf {
+        margin-top: 509px;
+        width: 50%;
+        height: 79px;
+        margin-left: 199px;
+    }
+
+    #main2-part p {
+        font-size: 14px;
+        margin-left: 32px;
+        width: 307px;
+    }
+
+    #about {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 65px;
+        padding: 2px;
+    }
+
+    #main2 {
+        display: inline-block;
+        margin-top: -372px;
+        margin-left: 387px;
+        height: 261px;
+        width: 294px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    #leaf-2 {
+        margin-top: -12px;
+        width: 21%;
+        height: 87px;
+        margin-left: 25px;
+    }
+
+    #cafes-id {
+        font-size: 30px;
+        margin-top: 6px;
+        margin-left: -72px;
+    }
+
+    #talk {
+        font-size: 22px;
+        width: 191px;
+        margin-left: 32px;
+        margin-top: -68px;
+    }
+
+    #talk-p {
+        font-size: 14px;
+        margin-left: 32px;
+        width: 307px;
+    }
+
+    #talk-btn {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 65px;
+        padding: 2px;
+    }
+
+    .vertical-line2 {
+        display: none;
+    }
+
+    #talkimg1 {
+        margin-left: -190px;
+        height: 369px;
+        width: 197px;
+        margin-top: 244px;
+    }
+
+    #talkimg2 {
+        margin-left: -8px;
+        height: 369px;
+        width: 278px;
+        margin-top: 245px;
+    }
+
+    .vertical-line2 {
+        display: none;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    #couple-img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #couple1 {
+        margin-left: 31px;
+        height: 367px;
+        width: 200px;
+        margin-top: 35px;
+    }
+
+    #couple2 {
+        margin-left: 248px;
+        height: 364px;
+        width: 200px;
+        margin-top: -384px;
+    }
+
+    #couple-p {
+        font-size: 14px;
+        margin-left: 466px;
+        width: 307px;
+        padding-top: 64px;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .vertical-line2 {
+        display: none;
+    }
+
+    .horizontal-line2 {
+        display: none;
+    }
+
+    #talk-p2 {
+        font-size: 14px;
+        margin-left: 32px;
+        width: 307px;
+        margin-top: 217px;
+    }
+
+    #talk-btn2 {
+        font-size: 13px;
+        width: 105px;
+        height: 45px;
+        margin-left: 65px;
+        padding: 2px;
+    }
+    .vertical-line3{
+        display: none;
+    }
+
+    .vertical-line22 {
+        display: none;
+    }
+    .vertical-line2{
+        display: none;
+    }
+
+    #talkimg12 {
+        margin-left: -190px;
+        height: 369px;
+        width: 197px;
+        margin-top: 132px;
+    }
+
+    #talkimg22 {
+        margin-left: 17px;
+        height: 369px;
+        width: 197px;
+        margin-top: -389px;
+    }
+
+    #talk-img2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #hr-id {
+        display: none;
+    }
+} 
